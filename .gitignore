@@ -1,0 +1,17 @@
+# Environnement
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (si tu en as déjà ou à venir)
+data/raw/*
+data/processed/*
+
+# OS
+.DS_Store
