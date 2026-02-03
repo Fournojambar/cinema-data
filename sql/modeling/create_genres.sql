@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS genres (
+    genre_id SERIAL PRIMARY KEY,
+    genre_cnc TEXT NOT NULL UNIQUE
+);

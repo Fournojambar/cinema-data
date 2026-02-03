@@ -25,10 +25,12 @@ cinema-data/
 │ ├── raw/ # données sources brutes
 │ └── cleaned/ # données nettoyées / normalisées
 ├── sql/
-│ ├── exploration/
-│ ├── cleaning/
-│ ├── modeling/
-│ └── analysis/
+│ ├── exploration/         # requêtes ad hoc pour explorer les données
+│ ├── cleaning/            # scripts pour nettoyer ou normaliser les tables
+│ ├── modeling/            # scripts de création de tables / relations (CREATE, ALTER)
+│ ├── analysis/            # requêtes d'analyse ou de reporting
+│ ├── populate/            # scripts pour remplir les tables (INSERT / COPY)
+│ └── reset/               # scripts pour vider ou drop les tables avant réimport
 ├── docs/
 │ ├── data_dictionary.md
 │ ├── modeling_choices.md
@@ -36,6 +38,7 @@ cinema-data/
 ├── notebooks/
 ├── assets/
 │ └── schemas/
+├── .gitignore
 └── README.md
 
 ---
